@@ -12,3 +12,18 @@ body{
     margin-top: 90px;
     border-radius: 10%;
 }
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td{
+    text-align: left;
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
