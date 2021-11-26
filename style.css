@@ -1,5 +1,25 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-size: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size: 3em;
+    color: darkgreen;
+}
+
+h2{
+    font-size: 2em;
+    color: green;
+}
+
+p, li{
+    font-size: 1.2em;
+}
+
+#main{
+    line-height: 30px;
 }
 
 #cabecalho{
@@ -16,6 +36,7 @@ body{
 table{
     border-collapse: collapse;
     width: 50%;
+    line-height: 50%;
 }
 
 th, td{
@@ -25,5 +46,5 @@ th, td{
 }
 
 tr:nth-child(odd){
-    background-color: lightgray;
+    background-color: rgb(167, 207, 167);
 }
